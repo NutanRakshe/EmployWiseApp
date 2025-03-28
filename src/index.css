@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media (max-width: 768px) {
+  .table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .pagination {
+    flex-direction: column;
+  }
+  .pagination button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .btn {
+    width: 100%;
+  }
+}
